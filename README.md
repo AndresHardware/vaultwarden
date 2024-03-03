@@ -33,8 +33,8 @@ Basically full implementation of Bitwarden API is provided including:
 ## Vorbereitungen
 ```sh
 apt-get update && apt-get upgrade -y && apt autoremove -y
-apt install curl
-apt install argon2
+apt install curl -y
+apt install argon2 -y
 
 curl -sSL https://get.docker.com | sh
 apt install docker-compose -y
@@ -46,7 +46,7 @@ apt install docker-compose -y
 mkdir docker
 cd docker
 mkdir Vaultwarden
-mkdir Vaultwarden
+cd Vaultwarden
 nano docker-compose.yml
 ```
 
